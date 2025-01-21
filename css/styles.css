@@ -65,19 +65,20 @@ a {
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-}
 
-#p-home #s-thumbnail-links figcaption {
-    font-size:0.8rem;
-    font-weight: 900;
-    color: #6f7276;
-    padding-top:3px;
-}
 
-#p-home #s-thumbnail-links img {
-    border-radius: 5px;
-    width: 200px;
-    height: 298px;
+    figcaption {
+        font-size:0.8rem;
+        font-weight: 900;
+        color: #6f7276;
+        padding-top:3px;
+    }
+
+    img {
+        border-radius: 5px;
+        width: 200px;
+        height: 298px;
+    }
 }
 
 /* --------------------------------------------- p-thumbnail styling */
